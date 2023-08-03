@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@nestjs/cli': ^8.2.4
   '@nestjs/common': ^8.4.3
-  '@nestjs/core': ^8.4.3
+  '@nestjs/core': ^9.0.5
   '@nestjs/mapped-types': '*'
   '@nestjs/platform-express': ^8.4.3
   '@nestjs/schematics': ^8.0.9
@@ -45,10 +45,10 @@ specifiers:
 
 dependencies:
   '@nestjs/common': 8.4.3_5199533202e21c7185c9d97f881e2827
-  '@nestjs/core': 8.4.3_c2aa74453c5108161d7d668927d51cc5
+  '@nestjs/core': 9.0.5_c2aa74453c5108161d7d668927d51cc5
   '@nestjs/mapped-types': 1.0.1_d8d8a930f4ff3c017ccc0319fdb79137
-  '@nestjs/platform-express': 8.4.3_2da8a9968be4406723e870d9d23c8df0
-  '@ogma/nestjs-module': 3.2.0_a2dbd976216bca99360ba5040550d5c7
+  '@nestjs/platform-express': 8.4.3_b521a35d0373f9189c527f162fd8db0b
+  '@ogma/nestjs-module': 3.2.0_37c48306a312c7467f026b9d22f5780d
   '@ogma/platform-express': 3.0.1_498e6a7cb556a0bcc1da051d2e042e6e
   class-transformer: 0.5.1
   class-validator: 0.13.2
@@ -58,7 +58,7 @@ dependencies:
 devDependencies:
   '@nestjs/cli': 8.2.4
   '@nestjs/schematics': 8.0.9_typescript@4.6.3
-  '@nestjs/testing': 8.4.3_f3535ac88edb13f3afdbc086f65fb7f4
+  '@nestjs/testing': 8.4.3_dbb7b22f301b44b7bf73fec1ca3feeb3
   '@ogma/cli': 2.1.6_d4f0682510d4836dc6ccf006f514787f
   '@types/express': 4.17.13
   '@types/inquirer': 8.2.1
@@ -921,7 +921,7 @@ packages:
         optional: true
     dependencies:
       '@nestjs/common': 8.4.0_5199533202e21c7185c9d97f881e2827
-      '@nestjs/platform-express': 8.4.3_2da8a9968be4406723e870d9d23c8df0
+      '@nestjs/platform-express': 8.4.3_b521a35d0373f9189c527f162fd8db0b
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
@@ -935,14 +935,14 @@ packages:
       - encoding
     dev: true
 
-  /@nestjs/core/8.4.3_c2aa74453c5108161d7d668927d51cc5:
-    resolution: {integrity: sha512-1etUwTR5jTCTcNh6MW1tFYrHMCvcdIzJ3Z9O9ETR8EYIsphhzsxxRCa0dfb9peKJEQpl6SkoGOILIFkxfokOPw==}
+  /@nestjs/core/9.0.5_c2aa74453c5108161d7d668927d51cc5:
+    resolution: {integrity: sha512-41BBJlsquasVrGeRWNYb74Fwsc+oB5EmKC/hioQJAhGqIw5Kr5AcdEoEFaMKFzNLAPbU6c/nVW8T8CrvtQbQww==}
     requiresBuild: true
     peerDependencies:
-      '@nestjs/common': ^8.0.0
-      '@nestjs/microservices': ^8.0.0
-      '@nestjs/platform-express': ^8.0.0
-      '@nestjs/websockets': ^8.0.0
+      '@nestjs/common': ^9.0.0
+      '@nestjs/microservices': ^9.0.0
+      '@nestjs/platform-express': ^9.0.0
+      '@nestjs/websockets': ^9.0.0
       reflect-metadata: ^0.1.12
       rxjs: ^7.1.0
     peerDependenciesMeta:
@@ -954,7 +954,7 @@ packages:
         optional: true
     dependencies:
       '@nestjs/common': 8.4.3_5199533202e21c7185c9d97f881e2827
-      '@nestjs/platform-express': 8.4.3_2da8a9968be4406723e870d9d23c8df0
+      '@nestjs/platform-express': 8.4.3_b521a35d0373f9189c527f162fd8db0b
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
@@ -962,7 +962,7 @@ packages:
       path-to-regexp: 3.2.0
       reflect-metadata: 0.1.13
       rxjs: 7.5.5
-      tslib: 2.3.1
+      tslib: 2.4.0
       uuid: 8.3.2
     transitivePeerDependencies:
       - encoding
@@ -987,14 +987,14 @@ packages:
       reflect-metadata: 0.1.13
     dev: false
 
-  /@nestjs/platform-express/8.4.3_2da8a9968be4406723e870d9d23c8df0:
+  /@nestjs/platform-express/8.4.3_b521a35d0373f9189c527f162fd8db0b:
     resolution: {integrity: sha512-MXXaShhWRChf7jKBrvRKjCFX84ii/4245TcB8Gei7UAGzDRHbM08lpLXDR+wUUUtC8rN2gWu8d8IGptAnqMGpA==}
     peerDependencies:
       '@nestjs/common': ^8.0.0
       '@nestjs/core': ^8.0.0
     dependencies:
       '@nestjs/common': 8.4.3_5199533202e21c7185c9d97f881e2827
-      '@nestjs/core': 8.4.3_c2aa74453c5108161d7d668927d51cc5
+      '@nestjs/core': 9.0.5_c2aa74453c5108161d7d668927d51cc5
       body-parser: 1.19.2
       cors: 2.8.5
       express: 4.17.3
@@ -1032,7 +1032,7 @@ packages:
       - chokidar
     dev: true
 
-  /@nestjs/testing/8.4.3_f3535ac88edb13f3afdbc086f65fb7f4:
+  /@nestjs/testing/8.4.3_dbb7b22f301b44b7bf73fec1ca3feeb3:
     resolution: {integrity: sha512-6+b2UCObr5onv7TG398VUdkNeU9n+f+TeTvlzmZlp9LKIAS4ZxDxwpdLDl5m/AssdkaZpfb0u755BJfKP5wbNw==}
     peerDependencies:
       '@nestjs/common': ^8.0.0
@@ -1047,8 +1047,8 @@ packages:
     dependencies:
       optional: 0.1.4
       '@nestjs/common': 8.4.3_5199533202e21c7185c9d97f881e2827
-      '@nestjs/core': 8.4.3_c2aa74453c5108161d7d668927d51cc5
-      '@nestjs/platform-express': 8.4.3_2da8a9968be4406723e870d9d23c8df0
+      '@nestjs/core': 9.0.5_c2aa74453c5108161d7d668927d51cc5
+      '@nestjs/platform-express': 8.4.3_b521a35d0373f9189c527f162fd8db0b
       tslib: 2.3.1
     dev: true
 
@@ -1127,7 +1127,7 @@ packages:
       '@ogma/styler': 1.0.0
     dev: false
 
-  /@ogma/nestjs-module/3.2.0_a2dbd976216bca99360ba5040550d5c7:
+  /@ogma/nestjs-module/3.2.0_37c48306a312c7467f026b9d22f5780d:
     resolution: {integrity: sha512-/pP+wZ2AfP+pnDXt8XMISjazwSz50m9xNUFaW7JE6q84SNFLojVA0+skPUbwnWjq0SXpcHd8mAk+KTZVnYjSIw==}
     peerDependencies:
       '@nestjs/common': ^8.0.0
@@ -1137,7 +1137,7 @@ packages:
     dependencies:
       '@golevelup/nestjs-modules': 0.5.0_@nestjs+common@8.4.3+rxjs@7.5.5
       '@nestjs/common': 8.4.3_5199533202e21c7185c9d97f881e2827
-      '@nestjs/core': 8.4.3_c2aa74453c5108161d7d668927d51cc5
+      '@nestjs/core': 9.0.5_c2aa74453c5108161d7d668927d51cc5
       '@ogma/common': 1.0.0
       '@ogma/logger': 2.2.0
       '@ogma/styler': 1.0.0
@@ -1151,10 +1151,10 @@ packages:
       '@nestjs/platform-express': ^8.0.0
       '@ogma/nestjs-module': ^3.0.0
     dependencies:
-      '@nestjs/platform-express': 8.4.3_2da8a9968be4406723e870d9d23c8df0
+      '@nestjs/platform-express': 8.4.3_b521a35d0373f9189c527f162fd8db0b
       '@ogma/common': 1.0.0
       '@ogma/logger': 2.1.0
-      '@ogma/nestjs-module': 3.2.0_a2dbd976216bca99360ba5040550d5c7
+      '@ogma/nestjs-module': 3.2.0_37c48306a312c7467f026b9d22f5780d
       '@ogma/styler': 1.0.0
     dev: false
 
@@ -2206,7 +2206,7 @@ packages:
       color-name: 1.1.4
 
   /color-name/1.1.3:
-    resolution: {integrity: sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=}
+    resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==}
     dev: true
 
   /color-name/1.1.4:
@@ -3085,7 +3085,7 @@ packages:
     dev: true
 
   /has-flag/3.0.0:
-    resolution: {integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=}
+    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
     dev: true
 
@@ -4412,7 +4412,7 @@ packages:
     dev: true
 
   /path-to-regexp/0.1.7:
-    resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=}
+    resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
     dev: false
 
   /path-to-regexp/3.2.0:
@@ -5144,7 +5144,7 @@ packages:
     dev: true
 
   /tr46/0.0.3:
-    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
 
   /tr46/2.1.0:
     resolution: {integrity: sha512-15Ih7phfcdP5YxqiB+iDtLoaTz4Nd35+IiAv0kQ5FNKHzXgdWqPoTIqEDDJmXceQt4JZk6lVPT8lnDlPpGDppw==}
@@ -5270,6 +5270,10 @@ packages:
 
   /tslib/2.3.1:
     resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: false
 
   /tsutils/3.21.0_typescript@4.6.3:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
@@ -5434,7 +5438,7 @@ packages:
     dev: true
 
   /webidl-conversions/3.0.1:
-    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
 
   /webidl-conversions/5.0.0:
     resolution: {integrity: sha512-VlZwKPCkYKxQgeSbH5EyngOmRp7Ww7I9rQLERETtf5ofd9pGeswWiOtogpEO850jziPRarreGxn5QIiTqpb2wA==}
@@ -5547,7 +5551,7 @@ packages:
     dev: true
 
   /whatwg-url/5.0.0:
-    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
